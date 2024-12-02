@@ -1,5 +1,5 @@
 x, y = [], []
-file = "input.txt"
+file = "input1.txt"
 
 with open(file, "r") as f:
     for line in f:
