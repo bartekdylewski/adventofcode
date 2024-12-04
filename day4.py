@@ -1,13 +1,19 @@
 directions = [
-    (0, 1),   # Prawo
-    (0, -1),  # Lewo
-    (1, 0),   # Dół
-    (-1, 0),  # Góra
-    (1, 1),   # Na skos w dół w prawo
-    (1, -1),  # Na skos w dół w lewo
-    (-1, 1),  # Na skos w górę w prawo
-    (-1, -1)  # Na skos w górę w lewo
-    ]
+    (0, 1),   # Right
+    (0, -1),  # Left
+    (1, 0),   # Down
+    (-1, 0),  # Up
+    (1, 1),   # Diagonally down-right
+    (1, -1),  # Diagonally down-left
+    (-1, 1),  # Diagonally up-right
+    (-1, -1)  # Diagonally up-left
+]
+diagonals = [
+    (1, 1),   # Down-right
+    (1, -1),  # Down-left
+    (-1, 1),  # Up-right
+    (-1, -1)  # Up-left
+]
 
 def get_test():
     with open("test4.txt", "r") as f:
@@ -70,21 +76,45 @@ def count_word(matrix, word):
                         count += 1
     return count
 
-
+def count_x_with_words(matrix):
+    rows = len(matrix)
+    cols = len(matrix[0])
+    count = 0
+    
+    # possible words for X
+    valid_words = {"MAS", "SAM"}
+    
+    # check for every "A" in the matrix
+    for row in range(1, rows - 1):  # dont check edges
+        for col in range(1, cols - 1):
+            if matrix[row][col] == "A":
+                # get letters diagonal to A
+                top_left = matrix[row - 1][col - 1]
+                top_right = matrix[row - 1][col + 1]
+                bottom_left = matrix[row + 1][col - 1]
+                bottom_right = matrix[row + 1][col + 1]
+                
+                # create 2 full diagonals
+                diagonal1 = top_left + "A" + bottom_right
+                diagonal2 = top_right + "A" + bottom_left
+                
+                # check if diagonals are correct
+                if diagonal1 in valid_words and diagonal2 in valid_words:
+                    count += 1
+    
+    return count
+    
 def main():
     choose = int(input("1 for test, 2 for input: "))
     if choose == 1:
-        list = string_to_list(get_test())
+        matrix = string_to_list(get_test())
     elif choose == 2:
-        list = string_to_list(get_input())
+        matrix = string_to_list(get_input())
     
     choose = int(input("1 for part1, 2 for part2: "))
     if choose == 1:
-        word = "XMAS"
-        occurrences = count_word(list, word)
-        print(f"Number of '{word}' occurencies: {occurrences}")
+        print(count_word(matrix, "XMAS"))
     elif choose == 2:
-        
-        pass
+        print(count_x_with_words(matrix))
 
 main()
