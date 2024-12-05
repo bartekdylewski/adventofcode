@@ -13,6 +13,8 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 4** was **hard**. I came up with an easy algorithm to set the input **string to a matrix** and then check words looking at "X"'s neighbours. The _hard part was coding it_. After a bit of help from ChatGPT I coded a checker in every dimension. Part 2 was surprising, but kind of easier. I checked for letters **"A"** in matrix and checked if words completed from diagonals matched the key: ```["MAS", "SAM"]```<br>
 
-**_score: 8/8 stars <br>
-class position: #10/35_**
+**Day 5** challenge was tricky, i quickly came up with my data structure - organizing things into lists _again_. Then for orders we checked every rule and made sure they work. For part 2 I added searching for not correct and a function to correct the orders.
+
+**_score: 10/10 stars <br>
+class position: #10/37_**
 
