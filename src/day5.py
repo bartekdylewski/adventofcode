@@ -44,12 +44,12 @@ def correct_order(update, orders):
     while changed:
         changed = False
         for x, y in orders:
-            if x in sorted_update and y in sorted_update:
+            if x in sorted_update and y in sorted_update: # we found a rule for our update
                 x_index = sorted_update.index(x)
                 y_index = sorted_update.index(y)
-                if x_index > y_index:  # If x is after y, swap them
+                if x_index > y_index:  # If y -> x, swap them
                     sorted_update[x_index], sorted_update[y_index] = sorted_update[y_index], sorted_update[x_index]
-                    changed = True
+                    changed = True # we changed the order
     return sorted_update
 
 def main():
