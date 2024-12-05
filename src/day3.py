@@ -25,7 +25,7 @@ def get_values(element:str):
     return int(x), int(y)
 
 def main():
-    memory = get_memory("input3.txt") # get string from file
+    memory = get_memory("input/input3.txt") # get string from file
     
     # "mul" finds mul
     # \( and \) finds the braces

@@ -24,7 +24,7 @@ all = [
     [1, 3, 6, 7, 9]
 ]
 
-file = "input2.txt"
+file = "input/input2.txt"
 
 def get_reports(file):
     """
