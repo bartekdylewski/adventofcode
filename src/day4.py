@@ -16,11 +16,11 @@ diagonals = [
 ]
 
 def get_test():
-    with open("test4.txt", "r") as f:
+    with open("test/test4.txt", "r") as f:
         return f.read()
 
 def get_input():
-    with open("input4.txt", "r") as f:
+    with open("input/input4.txt", "r") as f:
         return f.read()
 
 def string_to_list(string):
