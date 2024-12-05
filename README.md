@@ -4,10 +4,15 @@
 [Advent of Code](adventofcode.com) is an Advent calendar of small programming puzzles for a variety of skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
 I was motivated by our lecturer and wanted to beat the challenge 3 years later.
-### Days 1 - 3
-Fairly easy challenges. **Day 1** was self explainatory.
-In **Day 2** I had a small problem with re-trying the reports without one of the levels, but wrote a function to test all cases.
+## Days 1 - 7
+**Day 1** was self explainatory.<br>
+
+**Day 2** I had a small problem with re-trying the reports without one of the levels, but wrote a function to test all cases.<br>
+
 **Day 3** came with [regex](https://en.wikipedia.org/wiki/Regular_expression) problem. After a bit of research and tutorials of [re](https://docs.python.org/3/library/re.html) library in python, i completed part 1. Part 2 was tricky, but I am proud of my program. It divided corrupted memory into list of actions, that were later interpreted accordingly. <br>
 
-_score: 6/6 stars <br>
-position: #9/33_
+**Day 4** was **hard**. I came up with an easy algorithm to set the input **string to a matrix** and then check words looking at "X"'s neighbours. The _hard part was coding it_. After a bit of help from ChatGPT I coded a checker in every dimension. Part 2 was surprising, but kind of easier. I checked for letters **"A"** in matrix and checked if words completed from diagonals matched the key: ```["MAS", "SAM"]```<br>
+
+**_score: 8/8 stars <br>
+class position: #10/35_**
+
