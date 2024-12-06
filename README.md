@@ -15,7 +15,7 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 5** challenge was tricky, i quickly came up with my data structure - organizing things into lists _again_. Then for orders I checked for every order if update was correct. For part 2 I added searching for incorrect and a function to correct the orders.
 
-**Day 6** I woke up at 6am to code in the morning. I liked the challenge because it reminded me of some **game mechanics**. I quickly made the data structure thanks to experience from earlier days. Hard part was simulating part 2. I had to optimize the trying algorithm, because first version took too long to calculate. It took me 2 hours to conplete.
+**Day 6** I woke up at 6am to code in the morning. I liked the challenge because it reminded me of some **game mechanics**. I quickly made the data structure thanks to experience from earlier days. Hard part was simulating part 2. I had to optimize the trying algorithm, because first version took too long to calculate. It also reminded me of [halting problem](https://en.m.wikipedia.org/wiki/Halting_problem). It took me 2 hours to complete.
 
 **_score: 12/12 stars <br>
 class position: #10/37_**
