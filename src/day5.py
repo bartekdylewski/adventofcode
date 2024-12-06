@@ -1,6 +1,3 @@
-from math import floor
-
-# DELETE LAST EMPTY LINE IN INPUT FILE
 def get_test():
     with open("test/test5.txt", "r") as f:
         return f.read().rstrip()
