@@ -17,9 +17,11 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 6** I woke up at 6am to code in the morning. I liked the challenge because it reminded me of some **game mechanics**. I quickly made the data structure thanks to experience from earlier days. Hard part was simulating part 2. I had to optimize the trying algorithm, because first version took too long to calculate. It also reminded me of [halting problem](https://en.m.wikipedia.org/wiki/Halting_problem). It took me 2 hours to complete.
 
-**Day 7** //TODO
-**Day 8** //TODO
-**Day 9** The problem seemed to be easy, today I learned something about printing lists easier with ```print(''.join(list))```. Part 2 i got the example but the input didnt work for me. The principle seemed to be easier than it was.
+**Day 7** //TODO<br>
+
+**Day 8** //TODO<br>
+
+**Day 9** The problem seemed to be easy, today I learned something about printing lists easier with ```print(''.join(list))```. Part 2 i got the example but the input didnt work for me. The principle seemed to be easier than it was.<br>
 
 **_score: 12/12 stars <br>
 class position: #10/37_**
