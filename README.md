@@ -19,7 +19,7 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 7** //TODO
 **Day 8** //TODO
-**Day 9** //TODO
+**Day 9** The problem seemed to be easy, today I learned something about printing lists easier with ```print(''.join(list))```. Part 2 i got the example but the input didnt work for me. The principle seemed to be easier than it was.
 
 **_score: 12/12 stars <br>
 class position: #10/37_**
