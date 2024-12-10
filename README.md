@@ -25,6 +25,6 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 10** It seemed as an easy problem. I found bases (zeros) and then I looked up that a ```Depth First Search``` algorithm can solve it. The rest was implementing it. Distinct paths were very hard, but seemed managable.
 
-**_score: 12/12 stars <br>
-class position: #10/37_**
+**_score: 20/20 stars <br>
+class position: #12/43_**
 
