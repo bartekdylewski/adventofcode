@@ -28,10 +28,7 @@ def blink(list):
     return new_list
 
 def main():
-    # test = int_list(test_)
-    # input = int_list(input_)
-    # print("TEST:  ",blink(test_))
-    list = int_list(input_)
+    list = int_list(test_)
     print("0 : ",list)
     current = list
     for i in range(1,76):
