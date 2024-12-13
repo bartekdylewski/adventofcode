@@ -27,6 +27,12 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 11** Part 1 was really easy, at 6:50AM i got the answer. Part 2 required recursion and memoization, because the first one was about ```O(2^k*n)``` complexity. so a lot. 
 
-**_score: 22/22 stars <br>
-class position: #12/44_**
+**Day 12** Map of fields, very hard problem. ;c
+
+**Day 13** Was a fun math challenge. I used diofantine equiation. Part 1 took me a half of lecture and part2 didnt work right away.
+
+**_score: 26/26 stars <br>
+class position: #13/44_**
+
+
 
