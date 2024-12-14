@@ -19,6 +19,8 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 7** //TODO<br>
 
+## Days 8 - 14
+
 **Day 8** //TODO<br>
 
 **Day 9** The problem seemed to be easy, today I learned something about printing lists easier with ```print(''.join(list))```. Part 2 i got the example but the input didnt work for me. The principle seemed to be easier than it was.<br>
@@ -31,8 +33,11 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 13** Was a fun math challenge. I used diofantine equiation. Part 1 took me a half of lecture and part2 didnt work right away.
 
-**_score: 26/26 stars <br>
-class position: #13/44_**
+**Day 14** I am very happy with my code. First, I wrote an algorithm on paper to know what functions I need to have, and then just coded them, *(and it worked!!!)*. I worked with lists as data structure again, but in a different way. Instead of making a list visually, i had:
+```positions``` ```velocities``` ```quadrants``` Each list was synchronized with indexes, so robot's data was in ```pos[i] vel[i] quad[i]```. Looking for tree i solved with looking if every robot is in distinct location, and then print the map and seconds it took.
+
+**_score: 28/28 stars <br>
+class leaderboard position: #13/45_**
 
 
 
