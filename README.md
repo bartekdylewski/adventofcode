@@ -38,8 +38,8 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 15** Another day with robots! My concept for today was very simple, but parsing the input and logic of moving multiple boxes took me a long long time. My gps counter worked good on test, but didnt work on input, or it was the moving, idk really.
 
-**_score: 28/28 stars <br>
-class leaderboard position: #13/45_**
+**_score: 30/30 stars <br>
+class leaderboard position: #12/46_**
 
 
 
