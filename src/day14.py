@@ -37,8 +37,7 @@ def move_all_once(positions, velocities, map_size):
         
         # teleport if beyond map
         for j in range(2):
-            if positions[i][j] >= map_size[j] or positions[i][j] < 0:
-                positions[i][j] = positions[i][j] % map_size[j]
+            positions[i][j] %= map_size[j]
                 
 def visualize(positions, map_size):
     map = [["." for i in range(map_size[0])] for j in range(map_size[1])]
@@ -98,6 +97,7 @@ def main():
         # visualize(pos, data[1])
         check_for_tree(pos, data[1],i)
     quadrants = find_quadrants(pos, data[1])
+    print(quadrants)
     safety_factor = find_safety_factor(quadrants)
     print(safety_factor)
     
