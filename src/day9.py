@@ -73,7 +73,7 @@ def checksum(blocks):
 
 def compact_blocks(blocks):
     """
-    This function compresses the blocks by moving all files to the right, eliminating gaps.
+     This function compresses the blocks by moving all files to the right, eliminating gaps.
     """
     left = 0
     right = len(blocks) - 1
