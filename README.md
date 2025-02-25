@@ -19,7 +19,7 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 7** //TODO<br>
 
-## Days 8 - 14
+## Days 8 - 15
 
 **Day 8** //TODO<br>
 
@@ -38,8 +38,14 @@ I was motivated by our lecturer and wanted to beat the challenge 3 years later.
 
 **Day 15** Another day with robots! My concept for today was very simple, but parsing the input and logic of moving multiple boxes took me a long long time. My gps counter worked good on test, but didnt work on input, or it was the moving, idk really.
 
-**_score: 30/30 stars <br>
-class leaderboard position: #12/46_**
+## Days 15 - 25
+
+Didn't write updates on them daily ;cc
+...
+<br>
+
+**_score: 50/50 stars <br>
+class leaderboard position: #13/46_**
 
 
 
